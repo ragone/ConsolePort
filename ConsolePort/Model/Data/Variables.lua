@@ -457,7 +457,7 @@ db:Register('Variables', {
 		desc = 'Button or combination used to click when a given condition applies, but act as a normal binding otherwise.';
 		note = 'Use a shoulder button combined with crosshair for smooth and precise interactions. The click is performed at crosshair or cursor location.';
 	};
-	interactCondition = {String('[vehicleui] nil; [@target,noharm][@target,noexists][@target,harm,dead] TURNORACTION; nil');
+	interactCondition = {String('[vehicleui] nil; [@target,noharm][@target,noexists][@target,harm,dead] CAMERAORSELECTORMOVE; nil');
 		head = KEY_BINDINGS_MAC;
 		sort = 12;
 		name = 'Click Override Condition';
